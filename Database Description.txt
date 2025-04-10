@@ -1,0 +1,19 @@
+Base de Datos Escogida:
+Walmart Weekly Sales Dataset of 45 Stores
+https://www.kaggle.com/datasets/varsharam/walmart-sales-dataset-of-45stores/data
+
+Descripción de la base de datos:
+Walmart es una corporación multinacional estadounidense de venta minorista con más de 10,700 tiendas en diversos países. 
+Este conjunto de datos corresponde a una muestra de datos de 45 tiendas de Walmart en la región de Estados Unidos con datos 
+de ventas resumidos por semana en los periodos de febrero de 2010 hasta octubre de 2012. 
+El conjunto de datos permite saber las ventas semanales que hubo en cada una de las 45 tiendas además de contar con indicadores
+ de apoyo que pueden tener impacto en las ventas.
+
+A continuación, se describen las columnas:
+	Date	Fecha que agrupa la semana de referencia
+	Store	Código de la Tienda (de 1 a 45)
+	Weekly_Sales	Monto de venta total en la semana de una tienda
+	Holiday_Flag	Valor de 1 y 0 que indica si la semana contiene días festivos
+	Temperature	Temperatura Promedio esa semana en la región de la tienda
+	Fuel_price	Precio del Combustible esa semana en la región de la tienda
+	Unemployment	Tasa de desempleo en la región de la tienda en la semana.
