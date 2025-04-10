@@ -4,7 +4,6 @@ library(lubridate)
 library(forecast)
 library(tseries)
 
-# Suponiendo que tus datos están en un dataframe llamado 'datos'
 # Leemos los datos y los preparamos
 datos <- read.csv("C:/Users/dguev/Downloads/Walmart Sales Dataset of 45stores/walmart-sales-dataset-of-45stores.csv") # Ajusta el nombre del archivo
 
@@ -20,7 +19,6 @@ ventas_semanales <- datos %>%
 
 
 # Convertir a serie temporal
-# Asumiremos que los datos son semanales completas desde febrero 2010 hasta octubre 2012
 # Creamos un objeto ts con frecuencia 52 (semanas por año)
 start_year <- year(min(ventas_semanales$Date))
 start_week <- week(min(ventas_semanales$Date))
